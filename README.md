@@ -32,9 +32,8 @@ The backend provides **REST APIs** for CRUD operations, statistical analysis, an
 
 ### **Frontend (Eclipse RCP)**
 - Java 17
-- Eclipse RCP (SWT & JFace)
+- Eclipse RCP (SWT, Dialog & JFace)
 - REST API Integration using `HttpURLConnection`
-- Nebula XYGraph (Graph Visualization)
 
 ---
 

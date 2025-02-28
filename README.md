@@ -45,29 +45,13 @@ git clone <repository-url>
 cd Offshore-Ground-Sampling-BackEnd
 ```
 
-### **2️⃣ Configure Database & Threshold Values**
-Modify `src/main/resources/application.properties`:
-```properties
-spring.datasource.url=jdbc:h2:mem:testdb
-spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=
-
-threshold.waterContent.min=5.0
-threshold.waterContent.max=150.0
-threshold.unitWeight.min=12.0
-threshold.unitWeight.max=26.0
-threshold.shearStrength.min=2.0
-threshold.shearStrength.max=1000.0
-```
-
-### **3️⃣ Run the Backend**
+### **2️⃣ Run the Backend**
 ```bash
 mvn spring-boot:run
 ```
 The server runs at: **http://localhost:8080**
 
-### **4️⃣ Swagger API Documentation**
+### **3️⃣4️⃣ Swagger API Documentation**
 Once the server is running, access Swagger UI at:
 👉 **http://localhost:8080/swagger-ui.html**
 

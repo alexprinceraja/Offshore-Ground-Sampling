@@ -42,7 +42,7 @@ The backend provides **REST APIs** for CRUD operations, statistical analysis, an
 ### **1️⃣ Clone the Repository**
 ```bash
 git clone <repository-url>
-cd backend
+cd Offshore-Ground-Sampling-BackEnd
 ```
 
 ### **2️⃣ Configure Database & Threshold Values**

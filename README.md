@@ -75,6 +75,7 @@ cd Offshore-Ground-Sampling-FrontEnd
 2. Right-click → **Run As → Eclipse Application**
 
 **OR Install the Eclipse RCP Plugins**
+
 ![Screenshot 2025-02-28 142355](https://github.com/user-attachments/assets/7233fb12-0139-4b9e-95c8-f7e3b6c4e689)
 
 ### **4️⃣ Features of the Frontend**

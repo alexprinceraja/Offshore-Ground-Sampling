@@ -51,29 +51,41 @@ mvn spring-boot:run
 ```
 The server runs at: **http://localhost:8080**
 
-### **3️⃣4️⃣ Swagger API Documentation**
+### **3️⃣ Swagger API Documentation**
 Once the server is running, access Swagger UI at:
 👉 **http://localhost:8080/swagger-ui.html**
 
+![Screenshot 2025-02-28 131328](https://github.com/user-attachments/assets/7360b7e0-24a0-4dec-9d97-eb7024abcef1)
+
 ---
 
+
 ## **Frontend Setup (Eclipse RCP)**
-### **1️⃣ Import the Eclipse RCP Project**
+### **1️⃣ Clone the Repository**
+```bash
+git clone <repository-url>
+cd Offshore-Ground-Sampling-FrontEnd
+```
+### **2️⃣ Import the Eclipse RCP Project**
 1. Open **Eclipse IDE for RCP and RAP Developers**
 2. Go to **File → Import → Existing Projects into Workspace**
 3. Select the **frontend project folder** and import it.
 
-### **2️⃣ Run the Eclipse RCP Application**
-1. Open `MainView.java`
+### **3️⃣ Run the Eclipse RCP Application**
+1. Open `View.java`
 2. Right-click → **Run As → Eclipse Application**
 
-### **3️⃣ Features of the Frontend**
+### **4️⃣ Features of the Frontend**
 ✅ Displays a table with **Sample ID, Location, Date, Unit Weight, Water Content, Shear Strength**
 ✅ **Add/Edit/Delete samples** via API requests
 ✅ **Dropdown selection for locations** (fetched from the backend)
-✅ **Graph Visualization** (Unit Weight vs Water Content using Nebula XYGraph)
+✅ **Statistics report** (fetched from the backend)
+✅ **Graph Visualization** (Yet to do)
 
 ---
+![Add Sample](https://github.com/user-attachments/assets/a42729be-1a4b-49a6-b0f9-1fbe27e5d349)
+![Edit Sample](https://github.com/user-attachments/assets/0eab89f2-2395-4873-99f6-f83773c4752e)
+![Invalid Input](https://github.com/user-attachments/assets/874e7261-0c39-49ce-97ac-3d3ff12d05eb)
 
 ## **Unit Testing**
 To run **unit tests** for the backend:
@@ -87,34 +99,10 @@ Tests include:
 
 ---
 
-## **Graph Visualization**
-The frontend includes a **graph visualization** feature using Nebula XYGraph.
-- **X-axis:** Water Content (%)
-- **Y-axis:** Unit Weight (kN/m³)
-- **Graph is displayed when the user clicks 'Show Graph'.**
-
----
-
 ## **Additional Features**
 - **Threshold Validation:** Prevents invalid sample data from being saved.
 - **Statistics API:** Calculates **average water content** and **identifies threshold exceedances**.
 - **Swagger API Documentation:** Provides a web interface for testing APIs.
-
----
-
-## **🚀 Future Enhancements**
-- Implement **pagination and sorting** for the sample list.
-- Add **JWT authentication** for API security.
-- Improve UI with **Eclipse Nebula widgets**.
-
----
-
-## **Contributing**
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature-xyz`)
-3. Commit changes (`git commit -m 'Added new feature'`)
-4. Push to GitHub (`git push origin feature-xyz`)
-5. Submit a Pull Request
 
 ---
 

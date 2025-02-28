@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Offshore-Ground-Sampling-FrontEnd
+Bundle-SymbolicName: Offshore-Ground-Sampling-FrontEnd;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: offshore_ground_sampling_frontend.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.apache.felix.scr,
+ org.eclipse.equinox.event, com.google.gson
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: Offshore.Ground.Sampling.FrontEnd
+Import-Package: com.google.gson, jakarta.inject;version="[2.0.0,3.0.0)"
+Bundle-ActivationPolicy: lazy
